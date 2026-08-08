@@ -1,0 +1,40 @@
+{
+  "prefix": "-",
+  "maxOpenTickets": 1,
+  "claimSystemEnabled": true,
+  "transcriptSystemEnabled": true,
+  "embedColor": "#2b2d31",
+
+  "categories": {
+    "support": {
+      "label": "الدعم الفني",
+      "description": "للمشاكل التقنية والمساعدة",
+      "emoji": "🛠️",
+      "prefix": "support"
+    },
+    "complaint": {
+      "label": "الشكاوى",
+      "description": "لتقديم شكوى أو الإبلاغ عن مشكلة",
+      "emoji": "⚠️",
+      "prefix": "complaint"
+    },
+    "apply-boys": {
+      "label": "تقديم فرع العيال",
+      "description": "للتقديم على فرع العيال",
+      "emoji": "📋",
+      "prefix": "apply-boys"
+    },
+    "apply-girls": {
+      "label": "تقديم فرع البنات",
+      "description": "للتقديم على فرع البنات",
+      "emoji": "📋",
+      "prefix": "apply-girls"
+    },
+    "question": {
+      "label": "الاستفسارات",
+      "description": "للاستفسارات العامة",
+      "emoji": "❓",
+      "prefix": "question"
+    }
+  }
+}
