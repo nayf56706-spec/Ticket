@@ -2,7 +2,17 @@ const fs = require('fs');
 const path = require('path');
 const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 const config = require('./config');
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+  res.send('Server is active!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
 if (!config.token) {
   console.error(
     '❌ لم يتم العثور على DISCORD_TOKEN. أنشئ ملف .env (انسخ من .env.example) وعبّئ القيم قبل التشغيل.'
